@@ -11,6 +11,10 @@ $midGrey		: #7F7F7F; //50%
 $lightGrey		: #C0C0C0; //25%
 $white 			: #ffffff; 
 
+$blue 			: #0074D9;
+$purple			: #B10DC9;
+$red			: #FF4136;
+
 // Typography
 html {
 	font-family: verdana, serif;
@@ -54,6 +58,20 @@ blockquote {
 	line-height: 1.25em;
 	margin: 1.25em 2em;
 }
+
+// links
+
+a {
+	color: $blue;
+}
+a:visited {
+	color: $purple;
+}
+a:active {
+	color: $red;
+}
+
+
 
 // Tables
 table
