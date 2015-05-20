@@ -13,10 +13,11 @@ $white 			: #ffffff;
 
 // Typography
 html {
-	font-family: sans-serif;
+	font-family: verdana, serif;
 	font-size: $baseFontSize;
 }
 h1, h2, h3, h4, h5, h6 {
+	font-family: "helvetica neue", helvetica, arial, sans-serif;
 	margin-bottom: 0.50em;
 	font-weight: 600;
 }
