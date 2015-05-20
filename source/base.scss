@@ -1,9 +1,107 @@
 @import "reset";
 
-/* Colours */
+// Input variables
+$baseFontSize	: 16px;
 
-$black			: #000000; //100%
+// Colours
+
+$black			: #000000;
 $darkGrey		: #404040; //75%
 $midGrey		: #7F7F7F; //50%
 $lightGrey		: #C0C0C0; //25%
 $white 			: #ffffff; 
+
+// Typography
+html {
+	font-family: sans-serif;
+	font-size: $baseFontSize;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 0.50em;
+	font-weight: 600;
+}
+
+h1 {
+	font-size: 2.75em;
+}
+h2 { 
+	font-size: 2.25em;
+}
+h3 {
+	font-size: 1.75em;
+}
+h4 {
+	font-size: 1.25em;
+}
+h5 {
+}
+h6 {
+	color: $darkGrey;
+}
+
+p { 
+	line-height: 1.25em;
+	margin-bottom: 1.25em;
+	q {
+		color: $darkGrey;
+		font-style: italic;
+	}
+}
+
+blockquote {
+	font-size: 1.25em;
+	line-height: 1.25em;
+	margin: 1.25em 2em;
+}
+
+// Tables
+table
+{
+	width: 100%; // tables at 100% width
+	margin-bottom: 1.25em;
+	thead {
+		font-weight: 600;
+	}
+ 	td {
+		border: 1px solid $lightGrey;
+		padding: 0.75em;
+	}
+
+}
+
+// Lists
+ul, ol {
+	margin: 1.25em 0;
+	margin-left: 2em;
+	li {
+		line-height: 1.25em;
+	}
+}
+
+ul {
+	list-style-type: disc;
+
+	li ul {	
+		list-style-type: square;
+	}
+}
+
+ol {
+	list-style-type: decimal;
+
+	li ol {
+		list-style-type: lower-roman;
+	}
+}
+
+dl {
+	dt {
+		margin-bottom: 0.25em;
+	}
+	dd {
+		margin-left: 1.25em;
+		margin-bottom: 1.25em;
+	}
+}
+
+
