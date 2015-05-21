@@ -1,4 +1,4 @@
-# Mec Reset
+# Mr. Reset
 
 Basic reset for projects includes a modified Myer reset (http://meyerweb.com/eric/tools/css/reset/).
 
